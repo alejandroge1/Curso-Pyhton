@@ -1,0 +1,4 @@
+mensaje= "Bienvenido al curso de Python"; 
+mensaje= 100
+mens2= 10
+print(mensaje+200)
