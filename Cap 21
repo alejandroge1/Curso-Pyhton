@@ -4,6 +4,8 @@ num2 = 20
 
 if num1 < num2:
 	print('Se ejecuta el if.')
+    
+print(num1 < num2)
 
 #Para true    
 num1 = 1450
@@ -11,10 +13,14 @@ num2 = 60
 
 if num1 > num2:
 	print('Se ejecuta el if.')
+    
+print(num1 > num2)
 
 #Para false    
 num1 = 1450
 num2 = 60
 
 if num1 == num2:
-	print('Se ejecuta el if.')    
+	print('Se ejecuta el if.') 
+    
+print(num1 == num2)   
