@@ -1,0 +1,7 @@
+colores = ['rojo', 'azul', 'verde', 'amarillo', 'marrón', 'lila', 'negro', 'rosa', 'blanco', 'naranja']
+azul= colores.pop(1)
+blanco= colores.pop(7)
+
+print(colores)
+nuevalista= [azul, blanco]
+print(nuevalista)
