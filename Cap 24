@@ -1,0 +1,13 @@
+tuplacolores= ('verde','azul','rojo','amarillo')
+color = input('Introduce un color:  \n')
+
+if color in tuplacolores[0]:
+	print('El color esta en la lista')
+elif color in tuplacolores[1]:
+	print('El color esta en la lista')
+elif color in tuplacolores[2]:
+	print('El color esta en la lista')
+elif color in tuplacolores[3]:
+	print('El color esta en la lista')
+else:
+	print('El color no esta en la lista :(')
