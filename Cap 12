@@ -1,0 +1,9 @@
+colores = ['rojo', 'azul', 'verde', 'amarillo', 'marrón', 'lila', 'negro', 'rosa', 'blanco', 'naranja']
+del colores[-9]
+print(colores)
+del colores[3]
+print(colores)
+del colores[4]
+print(colores)
+del colores[4]
+print(colores)
