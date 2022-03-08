@@ -1,0 +1,10 @@
+suma = 20+ 23+ 44
+print(suma)
+resta= 20- 23- 84
+print(resta)
+mult= 20* 23* 1.89130435
+print(mult)
+div= 5000/230/2.17391
+print(div)
+operacion = 10/ 5+ 15- 17
+print(operacion)
