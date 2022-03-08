@@ -1,0 +1,5 @@
+nombre="enrique barros fernández"
+print(nombre.title())
+frase="Esta Es Una Frase Para Ser Formateada."
+print(frase.lower())
+print(frase.upper())
