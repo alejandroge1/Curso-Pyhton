@@ -1,4 +1,5 @@
 mensaje= "Bienvenido al curso de Python"; 
-mensaje= 100
-mens2= 10
-print(mensaje+200)
+v1= 100
+v2= 200
+res= v1+v2
+print(res)
