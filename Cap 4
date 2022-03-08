@@ -1,0 +1,11 @@
+v1= 'esto es una '+"concatenacion "
+v2= "en python"
+v3= v1+v2
+nom= "Alejandro"
+ap= "Garcia"
+n1= "1"
+n2= "2"
+print(v1)
+print(v3)
+print(nom+" "+ap)
+print(n1+n2)
