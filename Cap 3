@@ -1,3 +1,4 @@
-texto= 'esto es un "string"'
-texto= "esto es un 'string'"
-print(texto)
+v1= 'esto es un "string"'
+v2= "esto es un 'string'"
+print(v1)
+print(v2)
