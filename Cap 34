@@ -1,0 +1,6 @@
+def suma(numero1,numero2):
+    print(numero1+numero2)
+
+suma(10,20)
+suma(10,40)
+suma(50000,7000)
