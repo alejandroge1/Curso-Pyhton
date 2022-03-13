@@ -19,7 +19,7 @@ texto = "siete séptimos son siete séptimas más de los que tienes"
 resultado = re.findall("séptimos | séptimas", texto)
 print (resultado)
 
-resultado = re.findall("séptimos | séptimas | aloo", texto)
+resultado = re.findall("séptimos | séptimas | gaeh", texto)
 print (resultado)
 
 resultado = re.findall("[eé]", texto)
