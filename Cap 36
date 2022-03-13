@@ -1,0 +1,45 @@
+def colores (color1, color2, color3, color4):
+    print ("Este es el color " + color1 + ".")
+    
+    
+colores(color1="rojo", color2="azul", color3="verde", color4="amarillo")
+
+def colores (**kwargs):
+    print ("Este es el color " + kwargs["color1"] + ".")
+     
+    
+colores(color1="rojo", color2="azul", color3="verde", color4="amarillo")
+
+def suma (x, y):
+    return x + y
+
+total =suma(10, 10)
+print (total) 
+
+def resta (x, y):
+    return x - y
+
+total =resta(10, 10)
+print (total)    
+
+def mul (x, y):
+    return x * y
+
+total =mul(10, 10)
+print (total) 
+
+def div (x, y):
+    return x / y
+
+total =div(10, 10)
+print (total) 
+
+def colores ():
+    pass
+   
+
+def colores(color="Rojo"):
+    print("Mi color favorito es el " + color)
+colores("azul")
+colores()
+colores("verde")
