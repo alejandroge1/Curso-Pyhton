@@ -1,0 +1,22 @@
+variable = "Correcto"
+try:
+    print (variable)
+    
+except:
+    print ("Hay un error")
+
+reinicio = True
+while reinicio:
+    try:
+        num1 = int (input ("Introduce un numero para multiplicar:"))
+        num2 = int (input ("Introduce otro numero para multiplicar:"))
+    except ValueError:
+        print ("No has introducido un numero, vuelve a intentarlo.")
+    else:
+        print ("El resultado es: ", num1 * num2)
+    finally:
+        pregunta = input ("Quieres seguir multiplicando? Introduce S/N:\n")
+    if pregunta == "N":
+        reinicio = False
+    else:
+        print("De acuerdo,vamos a seguir multiplicando.")
