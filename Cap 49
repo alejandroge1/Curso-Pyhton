@@ -1,0 +1,16 @@
+import re
+texto = "tres tristes tigres comen trigo en un trigal"
+busqueda = re.split(" ", texto)
+print(busqueda)
+
+busqueda = re.split("que", texto)
+print(busqueda)
+
+busqueda = re.split("que", texto, 4)
+print(busqueda)
+
+busqueda = re.sub(" ",  "-",  texto)
+print(busqueda)
+
+busqueda = re.sub(" ",  "-",  texto, 4)
+print(busqueda)
