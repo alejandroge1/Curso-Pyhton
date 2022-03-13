@@ -1,0 +1,8 @@
+import re
+texto = "Bienvenidos a Programación fácil"
+busqueda = re.search("i", texto)
+print(busqueda)
+busqueda = re.search("I", texto)
+print(busqueda)
+busqueda = re.search("Bienvenidos", texto)
+print(busqueda)
